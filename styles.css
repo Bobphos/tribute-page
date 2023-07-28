@@ -1,19 +1,19 @@
 body {
     background-color: lawngreen;
 }
-img {
-    flex-wrap: wrap;
-    width: 13cm;
-    height: 8cm;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  border: 20px;
-  border-color: black;
+
+.box {
+    text-align: center; /* Center the image inside the box */
 }
+
+img {
+    width: 50%;
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+}
+
 h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    position:relative;
+    position: relative;
     left: 370px;
 }
